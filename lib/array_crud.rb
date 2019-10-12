@@ -7,12 +7,12 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(my_array, srce)
-  my_array = [ja, Masha, ljubav, okice]
+  my_array = ["ja", "Masha", "ljubav", "okice"]
   my_array << "srce"
 end
 
 def add_element_to_start_of_array(my_array, dusica)
-  my_array = dusica.unshift
+  my_array.unshift("dusica")
 end
 
 def remove_element_from_end_of_array(array)
