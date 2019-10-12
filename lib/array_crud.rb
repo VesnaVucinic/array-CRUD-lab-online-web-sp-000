@@ -3,12 +3,12 @@ def create_an_empty_array
 end
 
 def create_an_array
-  my_array = ["ja", "Masha", "ljubav", "okice"]
+  array = ["ja", "Masha", "ljubav", "okice"]
 end
 
 def add_element_to_end_of_array(array, element)
-  my_array = ["ja", "Masha", "ljubav", "okice"]
-  my_array << "arrays!"
+  array = ["ja", "Masha", "ljubav", "okice"]
+  array << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
@@ -16,7 +16,7 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  
+  arry.pop("wow")
 end
 
 def remove_element_from_start_of_array(array)
